@@ -1,0 +1,110 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: white;
+  padding: 10px 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin: 0 15px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+}
+
+.hero img {
+  border-radius: 50%;
+  width: 180px;
+}
+
+.about, .skills, main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background: #f4f4f4;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, select, textarea, button {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #444;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  .nav-links {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero img {
+    width: 130px;
+  }
+
+  table, th, td {
+    font-size: 12px;
+  }
+}

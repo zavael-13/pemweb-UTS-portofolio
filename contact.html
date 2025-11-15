@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak - Fawaaz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contact.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Form Request Project</h2>
+    <form>
+      <label>Nama:</label>
+      <input type="text" name="nama" placeholder="Masukkan nama anda" required>
+
+      <label>Email:</label>
+      <input type="email" name="email" placeholder="Masukkan email" required>
+
+      <label>Jenis Layanan:</label>
+      <select name="layanan" required>
+        <option value="">-- Pilih Layanan --</option>
+        <option value="website">Pembuatan Website</option>
+        <option value="konsultasi">Konsultasi Teknologi</option>
+        <option value="review">Review Portofolio</option>
+      </select>
+
+      <label>Deskripsi Proyek / Pesan:</label>
+      <textarea name="pesan" rows="5" placeholder="Tulis pesan atau deskripsi proyek" required></textarea>
+
+      <p>Preferensi Kontak:</p>
+      <label><input type="radio" name="kontak" value="email" checked> Email</label>
+      <label><input type="radio" name="kontak" value="whatsapp"> WhatsApp</label>
+
+      <label><input type="checkbox" required> Saya menyetujui kebijakan privasi</label>
+
+      <button type="submit">Kirim</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Fawaaz Prasyadi | <a href="https://itpln.ac.id">https://itpln.ac.id</a></p>
+  </footer>
+</body>
+</html>
